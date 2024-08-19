@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Juntada</title>
+</head>
+<body>
+    <h1>Gastos de Reunion</h1>
+    
+    <input type="text" id="Nombre" placeholder="Nombre"> 
+    <input type="number" id="Gasto" placeholder="Monto">
+    
+    <button onclick="addElement()">Agregar</button>
+    
+    <h2>Nombre Puso Debe<ul id="matrixList"></ul></h2>
+    
+    <h3>Gasto Total: <span id="sumResult">0</span></h3>
+    <h3>Monto individual: 
+        <span id="unit">0</span>
+    </h3>
+
+    <script src="functions.js"></script>
+</body>
+</html>
